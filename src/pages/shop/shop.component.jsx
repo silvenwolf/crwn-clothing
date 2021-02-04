@@ -28,7 +28,7 @@ class ShopPage extends React.Component {
             updateCollections(collectionsMap);
             this.setState({ loading: false });
         });
-    }
+}
 
     render() {
         const { match } = this.props;
